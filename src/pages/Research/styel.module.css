@@ -1,0 +1,38 @@
+.wrapper{
+    height: 100%;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill,minmax(65px,1fr));
+
+    height: 100%;
+
+}
+.item{
+    display: grid;
+    grid-template-columns: 120px 700px 1fr;
+    align-items: center;
+
+    border-bottom: 1px black dotted;
+
+
+
+}
+.item h1{
+    font-size: 30px;
+
+}
+
+.itemInput{
+    display: flex;
+
+    margin-bottom: 30px;
+
+}
+.singleInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
