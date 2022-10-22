@@ -20,6 +20,11 @@ export default function Sider() {
                                 isActive?activeStyle:undefined
                         }>研究成功率计算</NavLink>
                     </li>
+                    <li className={style.item}>
+                        <NavLink to={"product"} style={({isActive}) =>
+                                isActive?activeStyle:undefined
+                        }>产量计算</NavLink>
+                    </li>
                 </ol>
             </div>
     )
