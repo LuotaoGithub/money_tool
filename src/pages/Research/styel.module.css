@@ -11,7 +11,7 @@
 }
 .item{
     display: grid;
-    grid-template-columns: 120px 700px 1fr;
+    grid-template-columns: 120px 750px 1fr;
     align-items: center;
 
     border-bottom: 1px black dotted;
@@ -27,7 +27,7 @@
 .itemInput{
     display: flex;
 
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 
 }
 .singleInput{
