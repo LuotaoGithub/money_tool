@@ -8,13 +8,13 @@ export default function Research() {
             name:"L改",
             miniMoney:100000,
             baseCapacity:50,
-            baseMoney:420000
+            baseMoney:300000
         },
         {
             name:"H",
             miniMoney:300000,
             baseCapacity:100,
-            baseMoney: 1400000
+            baseMoney: 1000000
         },
         {
             name:"H改",
@@ -26,7 +26,7 @@ export default function Research() {
             name:"O",
             miniMoney:1000000,
             baseCapacity:100,
-            baseMoney: 2800000
+            baseMoney: 2000000
         },
         {
             name:"O改",
@@ -38,7 +38,7 @@ export default function Research() {
             name:"S",
             miniMoney:1500000,
             baseCapacity:100,
-            baseMoney: 4200000
+            baseMoney: 3000000
         },
         {
             name:"S改",
