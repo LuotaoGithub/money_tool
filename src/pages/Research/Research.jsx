@@ -20,7 +20,7 @@ export default function Research() {
             name:"H改",
             miniMoney:100000,
             baseCapacity:50,
-            baseMoney: 420000
+            baseMoney: 0
         },
         {
             name:"O",
@@ -32,7 +32,7 @@ export default function Research() {
             name:"O改",
             miniMoney:300000,
             baseCapacity:30,
-            baseMoney: 840000
+            baseMoney: 0
         },
         {
             name:"S",
@@ -44,7 +44,7 @@ export default function Research() {
             name:"S改",
             miniMoney:300000,
             baseCapacity:30,
-            baseMoney: 840000
+            baseMoney: 0
         }
     ]
 
