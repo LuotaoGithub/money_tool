@@ -21,6 +21,7 @@ export default function Bom() {
     S: 0,
     SP: 0,
   });
+  const [money,setMoney] = useState(0);
 
   const handlerInput = (e) => {
     const newProduct = product;
@@ -37,6 +38,7 @@ export default function Bom() {
     };
     setProduct(newProduct);
     setMaterial(newMaterial);
+    setMoney(newMaterial.m1*600+newMaterial.m2*600+newMaterial.m3*1000+newMaterial.m4*100+newMaterial.m5*200+newMaterial.mx*300);
   };
   const handleReset = () => {
     setProduct({
@@ -57,6 +59,7 @@ export default function Bom() {
       m5: 0,
       mx: 0,
     });
+    setMoney(0)
   };
 
   return (
@@ -127,6 +130,8 @@ export default function Bom() {
             <input value={material.mx} />
           </li>
         </ul>
+        <label htmlFor="">成本:</label>
+        <input type="number" value={money}/>
       </div>
     </div>
   );
